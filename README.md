@@ -2,8 +2,8 @@
  Smarthome Energie Zähler mit Impulseingängen
  Status: Prototyp im Dauertest
 
- ![](http://http://https://github.com/haraldapp/HMPowerMeterLCD/wiki/project.jpg)
- ![](http://http://https://github.com/haraldapp/HMPowerMeterLCD/wiki/counter.jpg)
+ ![](/wiki/project.jpg)
+ ![](/wiki/counter.jpg)
 
 ##  Features
 - LCD Display mit Menüsteuerung
@@ -26,19 +26,19 @@
 - Permanente Speicherung des Zählerstand mit Backup im EEPROM
 
 ## Getting Started
-- Schaltplan [```PDF```](http://https://github.com/haraldapp/HMPowerMeterLCD/schematic/HMPowerMeterSchematic.pdf) [```JPG```](http://https://github.com/haraldapp/HMPowerMeterLCD/schematic/HMPowerMeterSchematic.jpg)
-- Verdrahtung (Beispiel) [```JPG```](http://https://github.com/haraldapp/HMPowerMeterLCD/schematic/HMPowerMeterWire.jpg)
-- Gehäuse [```JPG```](http://https://github.com/haraldapp/HMPowerMeterLCD/case/HMPowerMeterCase.jpg) (STL Dateien im Verzeichnis *case*)
-- Sketch [```ino```](http://https://github.com/haraldapp/HMPowerMeterLCD/HMPowerMeterLCD.ino)
-- Details ...folgen noch...
+- Schaltplan [```PDF```](/schematic/HMPowerMeterSchematic.pdf) [```JPG```](/schematic/HMPowerMeterSchematic.jpg)
+- Verdrahtung (Beispiel) [```JPG```](/schematic/HMPowerMeterWire.jpg)
+- Gehäuse [```JPG```](/wiki/HMPowerMeterCase.jpg) (STL Dateien im Verzeichnis *case*)
+- Sketch [```ino```](/HMPowerMeterLCD.ino)
+- Details ..folgen noch..
 
 ## Lizenz
 - [Creative Commons 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
 
 ## 
 **Thanks to**
-> [pa-pa](https://github.com/pa-pa) für seine umfangreiche Arbeit
-> [Jérôme](https://github.com/jp112sdl) für seine umfangreiche Arbeit
-> [JurgenO](https://github.com/JurgenO) for seine Ideen und Arbeit -> [GasMetering](https://github.com/JurgenO/GasMetering)
++ [pa-pa](https://github.com/pa-pa) für seine umfangreiche Arbeit
++ [Jérôme](https://github.com/jp112sdl) für seine umfangreiche Arbeit
++ [JurgenO](https://github.com/JurgenO) for seine Ideen und Arbeit -> [GasMetering](https://github.com/JurgenO/GasMetering)
 
 
