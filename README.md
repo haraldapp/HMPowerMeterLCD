@@ -28,7 +28,7 @@
 ## Getting Started
 - Schaltplan [```PDF```](/schematic/HMPowerMeterSchematic.pdf) [```JPG```](/schematic/HMPowerMeterSchematic.jpg)
 - Verdrahtung (Beispiel) [```JPG```](/schematic/HMPowerMeterWire.jpg)
-- Gehäuse [```JPG```](/wiki/HMPowerMeterCase.jpg) (STL Dateien im Verzeichnis *case*)
+- Gehäuse [```JPG```](/wiki/case-1.jpg) [```JPG```](/wiki/case-2.jpg) (STL Dateien im Verzeichnis *case*)
 - Sketch [```ino```](/HMPowerMeterLCD.ino)
 - Details ..folgen noch..
 
