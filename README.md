@@ -1,6 +1,6 @@
 # HMPowerMeterLCD
- Smarthome Energie Zähler mit Impulseingängen
- Status: Prototyp im Dauertest
+Smarthome Energie Zähler mit Impulseingängen  
+Status: Prototyp im Dauertest
 
  ![](/wiki/project.jpg)
  ![](/wiki/counter.jpg)
@@ -28,7 +28,7 @@
 ## Getting Started
 - Schaltplan [```PDF```](/schematic/HMPowerMeterSchematic.pdf) [```JPG```](/schematic/HMPowerMeterSchematic.jpg)
 - Verdrahtung (Beispiel) [```JPG```](/schematic/HMPowerMeterWire.jpg)
-- Gehäuse [```JPG```](/wiki/case-1.jpg) [```JPG```](/wiki/case-2.jpg) (STL Dateien im Verzeichnis *case*)
+- Gehäuse: [```JPG1```](/wiki/case-1.jpg) [```JPG2```](/wiki/case-2.jpg) 3D-Druck Dateien im Verzeichnis *case* [```STL1```](/case/HMPowerMeterCase1.stl) [```STL2```](/case/HMPowerMeterCase2.stl)
 - Sketch [```ino```](/HMPowerMeterLCD.ino)
 - Details ..folgen noch..
 

@@ -355,17 +355,17 @@ public:
     return false;
   }
   bool getmenueditvalue( uint64_t& val, uint8_t updateval=1 ) {
-    bool ret=true;
+    bool ret=false; uint8_t channelnr=0;
     if ( currentpage==DISPLAY_PAGE_SETCOUNTER1 ) {
-      val=getcounterline( countereditline, COUNTER1_FORMAT );
-      if ( updateval )  setcounter( 1, val );
+      ret=true; channelnr=1; val=getcounterline( countereditline, COUNTER1_FORMAT );
+      val=(val*COUNTER1_FORMATSIGS)/100;
     }
     else if ( currentpage==DISPLAY_PAGE_SETCOUNTER2 ) {
-      val=getcounterline( countereditline, COUNTER2_FORMAT );
-      if ( updateval )  setcounter( 2, val );
-    } else {
-      ret=false;
-    }
+      ret=true; channelnr=2; val=getcounterline( countereditline, COUNTER2_FORMAT );
+      val=(val*COUNTER2_FORMATSIGS)/100;
+    } 
+    if ( ret && updateval )
+      setcounter( channelnr, val );
     return ret;
   }
   void setdirty( uint16_t flags ) {
